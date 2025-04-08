@@ -1,0 +1,19 @@
+header {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #17072b;
+}
+
+nav {
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #17072b;
+}
+
+footer {
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #8c15e9;
+}
