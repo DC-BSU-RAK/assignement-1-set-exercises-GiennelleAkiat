@@ -2,7 +2,7 @@ nav, header {
     color: #FFFFFF;
     text-align: center;
     background-color: #17072b;
-    padding: 20px 50px 10px 50px;
+    padding: 55px 0px 30px 0px;
 }
 
 header {
@@ -11,13 +11,11 @@ header {
     font-weight: 700;
     text-decoration: underline;
     margin-bottom: 0px;
-
 }
 
 nav {
-    font-size: 30px;
-    margin-top: -30px;
-    padding: 30px 20px 5px 20px;
+    font-size: 45px;
+    margin-top: -40px;
 }
 
 .topnav a {
@@ -30,6 +28,7 @@ nav {
 body {
     font-family: Arial;
     margin: 0%;
+    font-size: 28px;
 }
 
 footer {
@@ -44,7 +43,10 @@ footer {
 }
 
 h1 {
+    font-family: Tahoma, sans-serif;
     text-decoration: underline;
+    font-weight: 700;
+    font-size: 50px
 }
 
 main {
@@ -53,14 +55,29 @@ main {
 }
 
 article {
-    padding: 10px 10px 10px 10px;
+    position: absolute;
+    width: 1100px;
+    margin: -10px 50px 50px 50px;
 }
 
 aside {
     color: #FFFFFF;
     background-color: #172d67;
-    padding: 10px 10px 10px 10px;
-    width: 50%;
-    position: relative;
-    top: 20px;
+    padding: 0px 0px 50px 50px;
+    width: 600px;
+    position: absolute;
+    right: 0px;
+    margin: 20px 0px 20px 0px;
+}
+
+li {
+    list-style-type: '- ';
+    margin-bottom: 30px;
+    margin-left: -20px;
+}
+
+div {
+    display: flex;
+    margin: 5px;
+    margin-top: 75px;
 }
