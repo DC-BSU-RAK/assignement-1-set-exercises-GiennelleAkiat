@@ -10,6 +10,6 @@
     }
     
 function play_sound(clicked_id) {
-    var audio = new Audio("Audio Sampler/Audio/" + clicked_id + ".mp3");
+    var audio = new Audio("Audio/" + clicked_id + ".mp3");
     audio.play();
   }
