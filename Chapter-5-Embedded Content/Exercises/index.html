@@ -9,22 +9,31 @@
 </head>
 <body>
 
-    <div class="speak">
-        <div>
-            <input type="text" id="text-to-speech" placeholder="Enter text to speak" />
+    <div class="container"> 
+        <div class="speak">
+            <div>
+                <input type="text" id="text-to-speech" placeholder="Enter text to speak" />
+            </div>
+            <div>
+                <button type="button" onclick="textToAudio()">Speak</button>
+            </div>
+            <div>
+                <small><b>NOTE:</b> Enter text and click on speak button.</small>
+            </div>
         </div>
-        <div>
-            <button type="button" onclick="textToAudio()">Speak</button>
-        </div>
-        <div>
-            <small><b>NOTE:</b> Enter text and click on speak button.</small>
+
+        <div class="soundboard">
+            <p>Soundboard:</p>
+            <button id="ah-ha" onClick="play_sound(this.id)">Ah-ha</button>
+            <button id="back-of-the-net" onClick="play_sound(this.id)">Back of the Net</button>
+            <button id="bangoutoforder" onClick="play_sound(this.id)">Bang Out of Order</button>
+            <button id="dan" onClick="play_sound(this.id)">Dan</button>
+            <button id="emailoftheevening" onClick="play_sound(this.id)">Email of the Evening</button>
+            <button id="hellopartridge" onClick="play_sound(this.id)">Hello Partridge</button>
+            <button id="iateascotchegg" onClick="play_sound(this.id)">iateascotchegg</button>
+            <button id="imconfused" onClick="play_sound(this.id)">I'm Confused</button>
         </div>
     </div>
-
-    <div class="sounds">
-        <button id="ah-ha" onClick="play_sound(this.id)">ah-ha</button>
-    </div>
-
 
 </body>
 </html>
